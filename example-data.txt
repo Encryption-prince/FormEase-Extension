@@ -1,0 +1,26 @@
+# Personal Information
+fullName: John Doe
+firstName: John
+lastName: Doe
+email: john.doe@example.com
+phone: 555-123-4567
+mobile: 555-123-4567
+dateOfBirth: 1990-01-15
+gender: Male
+
+# Address Information
+street: 123 Main Street
+city: New York
+state: NY
+zipCode: 10001
+country: US
+
+# Professional Information
+company: Acme Corporation
+jobTitle: Software Engineer
+website: https://www.johndoe.com
+linkedIn: https://linkedin.com/in/johndoe
+
+# Additional Information
+comments: This is example data for the Chrome Auto-Fill Extension
+bio: Software engineer with experience in web development

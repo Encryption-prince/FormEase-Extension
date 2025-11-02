@@ -1,0 +1,22 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "fullName": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "+1-555-123-4567",
+  "mobile": "+1-555-987-6543",
+  "dateOfBirth": "1990-01-15",
+  "gender": "male",
+  "street": "123 Main Street",
+  "city": "Anytown",
+  "state": "California",
+  "zipCode": "12345",
+  "country": "US",
+  "company": "Example Corporation",
+  "jobTitle": "Software Developer",
+  "workPhone": "+1-555-111-2222",
+  "website": "https://johndoe.example.com",
+  "linkedIn": "https://linkedin.com/in/johndoe",
+  "bio": "Experienced software developer with expertise in web technologies and browser extensions.",
+  "comments": "This is a test data file for the Browser Auto-Fill Extension."
+}
