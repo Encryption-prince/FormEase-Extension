@@ -11,20 +11,15 @@
 ## ✨ Features
 
 ### 🎯 Core Functionality
+
 - **📁 Multi-format Support** - Upload JSON, CSV, or TXT files with your data
 - **🔍 Intelligent Field Detection** - Automatically detects and maps form fields
 - **⚡ One-Click Auto-Fill** - Fill entire forms instantly with a single click
 - **🎨 Visual Feedback** - Real-time progress indicators and field highlighting
 - **🔧 Customizable Mappings** - Create custom field mappings for any data type
 
-### 🧠 Smart Features
-- **💡 Smart Field Suggestions** - AI-like suggestions for unmapped fields using fuzzy matching
-- **💾 Inline Save Options** - Save new field mappings directly on the webpage
-- **📝 Auto-Completion** - Real-time suggestions as you type in form fields
-- **🎯 Context-Aware Matching** - Analyzes field labels and context for better accuracy
-- **📊 Confidence Scoring** - Ranks field suggestions by accuracy
-
 ### 🔐 Privacy & Security
+
 - **🏠 100% Local Operation** - Your data never leaves your device
 - **🚫 No Cloud Storage** - No servers, no databases, no external connections
 - **👁️ No Tracking** - Zero analytics, cookies, or user monitoring
@@ -46,6 +41,7 @@
 ### Basic Usage
 
 1. **📤 Upload Your Data**
+
    ```json
    {
      "firstName": "John",
@@ -61,23 +57,10 @@
 3. **🎯 Click** the extension icon
 4. **⚡ Hit "Auto-Fill"** and watch the magic happen!
 
-### Advanced Features
-
-#### Smart Field Mapping
-When the extension encounters unknown fields, it will:
-- 🔍 **Analyze** the field name, label, and context
-- 💡 **Suggest** the most likely data mapping
-- 💾 **Show save button** next to the field for one-click mapping
-
-#### Auto-Completion
-As you type in form fields:
-- 📝 **Real-time suggestions** appear based on your data
-- ⌨️ **Keyboard navigation** with arrow keys and Enter
-- 🎯 **Context-aware** suggestions based on field type
-
 ## 📋 Supported Data Formats
 
 ### JSON Format
+
 ```json
 {
   "firstName": "John",
@@ -96,6 +79,7 @@ As you type in form fields:
 ```
 
 ### CSV Format
+
 ```csv
 Field,Value
 firstName,John
@@ -106,6 +90,7 @@ company,Tech Corp
 ```
 
 ### TXT Format
+
 ```
 firstName: John
 lastName: Doe
@@ -117,6 +102,7 @@ company: Tech Corp
 ## 🎛️ Configuration
 
 ### Field Mappings
+
 Customize how fields are detected and mapped:
 
 1. Click the **⚙️ Settings** button in the extension popup
@@ -125,39 +111,18 @@ Customize how fields are detected and mapped:
 4. **Save** and use immediately
 
 ### Supported Field Types
+
 - **Personal**: firstName, lastName, fullName, email, phone, dateOfBirth
 - **Address**: street, city, state, zipCode, country
 - **Professional**: company, jobTitle, department, workPhone
 - **Social**: website, linkedin, github, twitter, youtube, instagram
 - **Custom**: Add any field type you need!
 
-## 🛠️ Development
-
-### Project Structure
-```
-browser-autofill-extension/
-├── manifest.json              # Extension configuration
-├── popup.html                 # Extension popup UI
-├── popup.js                   # Popup functionality
-├── background.js              # Background service worker
-├── content.js                 # Content script for form interaction
-├── smartFieldMatcher.js       # AI-like field matching engine
-├── inlineFieldManager.js      # On-page save button management
-├── autoCompleteHandler.js     # Real-time auto-completion
-├── upload.html                # File upload interface
-├── upload.js                  # File processing logic
-├── fileParser.js              # Multi-format file parser
-├── content.css                # Styling for injected elements
-├── popup.css                  # Popup interface styling
-├── sample-data.json           # Example data file
-└── icons/                     # Extension icons
-```
-
 ### Tech Stack
-- **Frontend**: Vanilla JavaScript, HTML5, CSS3
+
+- **Frontend**: JavaScript, HTML5, CSS3
 - **APIs**: Browser Extension APIs (WebExtensions)
 - **Storage**: Browser Local Storage API
-- **Algorithms**: Levenshtein Distance, Fuzzy Matching, Trie Data Structures
 - **Architecture**: Event-driven, Modular Components
 
 ## 🤝 Contributing
@@ -165,6 +130,7 @@ browser-autofill-extension/
 We welcome contributions! Here are some areas where you can help:
 
 ### 🎯 Priority Features
+
 - [ ] **Multi-language Support** - Internationalization for global users
 - [ ] **Form Templates** - Pre-configured mappings for popular sites
 - [ ] **Data Validation** - Smart validation before filling fields
@@ -173,6 +139,7 @@ We welcome contributions! Here are some areas where you can help:
 - [ ] **Performance** - Optimization for large data files and complex forms
 
 ### 🚀 Enhancement Ideas
+
 - [ ] **Dark Mode** - Dark theme for the extension interface
 - [ ] **Keyboard Shortcuts** - Customizable hotkeys for quick actions
 - [ ] **Form Analytics** - Local statistics about form filling success
@@ -181,7 +148,9 @@ We welcome contributions! Here are some areas where you can help:
 - [ ] **Field Validation** - Real-time validation of filled data
 
 ### 🐛 Bug Reports & Features
+
 Feel free to contribute anything that improves the extension! Whether it's:
+
 - 🐛 **Bug fixes** and stability improvements
 - 🎨 **UI/UX enhancements** and design improvements
 - ⚡ **Performance optimizations** and code refactoring
@@ -219,24 +188,12 @@ Feel free to contribute anything that improves the extension! Whether it's:
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ### What this means:
+
 - ✅ **Commercial use** - Use in commercial projects
 - ✅ **Modification** - Modify and adapt the code
 - ✅ **Distribution** - Share and distribute freely
 - ✅ **Private use** - Use for personal projects
 - ℹ️ **Attribution** - Include the original license notice
-
-## 🙏 Acknowledgments
-
-- **Privacy Advocates** - For inspiring privacy-first development
-- **Open Source Community** - For tools and libraries that make this possible
-- **Beta Testers** - For feedback and bug reports
-- **Contributors** - For making this extension better
-
-## 📞 Support
-
-- **🐛 Issues**: [GitHub Issues](https://github.com/yourusername/browser-autofill-extension/issues)
-- **💡 Feature Requests**: [GitHub Discussions](https://github.com/yourusername/browser-autofill-extension/discussions)
-- **📧 Contact**: [your.email@example.com](mailto:your.email@example.com)
 
 ---
 
@@ -244,7 +201,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ for Privacy**
 
-*Your data belongs to you. Keep it that way.*
+_Your data belongs to you. Keep it that way._
 
 [⭐ Star this project](https://github.com/yourusername/browser-autofill-extension) • [🍴 Fork it](https://github.com/yourusername/browser-autofill-extension/fork) • [📢 Share it](https://twitter.com/intent/tweet?text=Check%20out%20this%20privacy-first%20browser%20extension!)
 
